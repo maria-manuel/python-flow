@@ -23,7 +23,10 @@ print('Challenge 2 -------------')
 # "home_score" - how many points you want your team to score
 # "rival_score" - how many points your opponent scores
 
-
+home_team = '49ers'
+rival_team = 'Cowboys'
+home_score = 'winner'
+rival_score = 'loser'
 
 
 
