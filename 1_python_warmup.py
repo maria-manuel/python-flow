@@ -60,13 +60,15 @@ print('Challenge 4 -------------')
 # converting the integer first into a string. Instead of just home_score, write
 # str(home_score) for the string version.
 
+## Notes: () for python keep in view w/i screen; \n for new line
+
 story = (
-    "Today the" + home_team + "is playing in San Francisco."
+    "The most anticipated game today: " + home_team + " vs " + rival_team + "\n" +
+    home_team + " won against " + rival_team + "\n" +
+    home_team + " managed to score " + str(home_score) + " points.\n" +
+    "The pathetic " + rival_team + " only scored " + str(rival_score) + " points\n"
 )
-
 open('sports_story.txt', 'w+').write(story)
-
-
 
 
 
