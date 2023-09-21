@@ -45,14 +45,9 @@ favorite_animals_dict = {
     'kitty': 'meow',
     'dog': 'woof', 
     'rabbit': 'winkle',
-    'bird': 'flapping'
+    'bird': 'flapping',
     'fish': 'swimming',
 }
-
-
-
-
-
 
 
 print('--------------- Challenge 4')
@@ -64,11 +59,11 @@ print('--------------- Challenge 4')
 
 #print('Kitty says:', favorite_animals_dict['kitty'])
 
-
-
-
-
-
+print('Kitty says:', favorite_animals_dict['kitty'])
+print('Dog says:', favorite_animals_dict['dog'])
+print('Rabbit says:', favorite_animals_dict['rabbit'])
+print('Bird says:', favorite_animals_dict['bird'])
+print('Fish says:', favorite_animals_dict['fish'])
 
 
 print('--------------- Challenge 5')
@@ -77,28 +72,55 @@ print('--------------- Challenge 5')
 # where each key is the category of animal, and the values are the list of the
 # animals that fall under that category.
 
-animals = [
+#animals = [
     # canines
-    'dogs',
-    'wolves',
+    #'dogs',
+    #'wolves',
 
     # felines
-    'cats',
-    'tigers',
+    #'cats',
+    #'tigers',
 
     # rodents
-    'mice',
-    'hamsters',
-    'gerbils',
-    'capybaras',
+    #'mice',
+    #'hamsters',
+    #'gerbils',
+    #'capybaras',
 
     # notochord retaining fish
-    'hagfish',
-    'lamprey',
-    'coelacanth',
-    'sturgeon',
-]
+    #'hagfish',
+    #'lamprey',
+    #'coelacanth',
+    #'sturgeon',
+#]
 
+animals = { 
+    'canines': [
+        'dogs',
+        'wolves',
+    ],
+
+    'felines': [
+        'cats',
+        'tigers',
+     ],
+
+    'rodents': [
+        'mice',
+        'hamsters',
+        'gerbils',
+        'capybaras',
+     ],
+
+    'notochord retaining fish': [
+        'hagfish',
+        'lamprey',
+        'coelacanth',
+        'sturgeon',
+    ],
+}
+
+print(animals)
 
 
 
