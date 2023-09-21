@@ -9,6 +9,10 @@ print('--------------- Challenge 1')
 # done by following the pattern of 'kitty'.
 favorite_animals_list = [
     'kitty',
+    'dog',
+    'rabbit', 
+    'bird', 
+    'fish',
 ]
 
 
