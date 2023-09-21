@@ -30,11 +30,11 @@ print('--------------- Challenge 2')
 
 #print(favorite_animals_list[0])
 
-
-
-
-
-
+print(favorite_animals_list[0])
+print(favorite_animals_list[1])
+print(favorite_animals_list[2])
+print(favorite_animals_list[3])
+print(favorite_animals_list[4])
 
 print('--------------- Challenge 3')
 # Challenge 3:
@@ -43,6 +43,10 @@ print('--------------- Challenge 3')
 # noise that it makes. The first one (kitty) is done for you.
 favorite_animals_dict = {
     'kitty': 'meow',
+    'dog': 'woof', 
+    'rabbit': 'winkle',
+    'bird': 'flapping'
+    'fish': 'swimming',
 }
 
 
