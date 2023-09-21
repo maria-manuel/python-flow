@@ -47,11 +47,6 @@ print(home_team, "managed to score", home_score, "points")
 print ("The pathetic", rival_team, "only scored", rival_score, "points")
 
 
-
-
-
-
-
 print('Challenge 4 -------------')
 # Challenge 4:
 # Using string concatenation operator ("+", or any equivalent method), rewrite
@@ -65,7 +60,11 @@ print('Challenge 4 -------------')
 # converting the integer first into a string. Instead of just home_score, write
 # str(home_score) for the string version.
 
+story = (
+    "Today the" + home_team + "is playing in San Francisco."
+)
 
+open('sports_story.txt', 'w+').write(story)
 
 
 
