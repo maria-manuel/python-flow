@@ -2,6 +2,7 @@
 # file you are working with?
 # (Answer: add a "print", to make sure you are editing the right file!)
 
+print('Welcome to branching')
 
 print('------------- Challenge 1')
 # Challenge 1:
@@ -13,6 +14,26 @@ if name == "Brock":
     print("Hi Brock!")
 else:
     print("I don't know who you are.")
+
+name = "Gary"
+if name == "Brock":
+    print("Hi Brock!")
+else:
+    print("I don't know who you are.")
+
+age = 22
+if age > 21:
+    print("Old enough to drink")
+else:
+    print("Too young to drink")
+
+age = 17
+if age > 21:
+    print("Old enough to drink")
+else:
+    print("Too young to drink")
+
+############
 
 #name = "Gary"
 #if name = "Brock":
@@ -45,10 +66,18 @@ print('------------- Challenge 2')
 
 person_a = 'johann'    # is person_a equal to 'samantha'?
 person_b = 'samantha'  # is person_b equal to 'samantha'?
+if person_a == person_b:
+    print('Johann and Samantha are the same person')
+else:
+    print("...are not the same person")
 
 x = 100  # is x greater than 50?
 y = 13   # is y equal to 50?
-
+if x > 50:
+    print("100 is greater than 50")
+else:
+    y == 50
+    print('13 is greater than 50')    
 
 
 
