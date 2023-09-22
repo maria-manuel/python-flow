@@ -30,9 +30,11 @@ print('------------- Challenge 2')
 # username = input('Username? ')
 # password = input('Password? ')
 
+# Answer Below #
 
-
-
+#username = input('Username? ')
+#password = input('Password? ')
+#print(username, password)
 
 
 print('------------- Challenge 3')
@@ -46,7 +48,12 @@ print('------------- Challenge 3')
 # Can you write it in Python?
 
 
-
+username = input('Username? ')
+if username == 'AzureDiamond':
+    print("Logged on!")
+else:
+    print("Incorrect, go away")
+#password = input('Password? ')
 
 
 
