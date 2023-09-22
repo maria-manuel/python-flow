@@ -22,7 +22,10 @@ print('------------- Challenge 2')
 # Hint 3: The solution to this is no more complex than Challenge 1
 
 
-
+x = 9
+while x < 42:
+    print(x)
+    x = x + 2
 
 
 
