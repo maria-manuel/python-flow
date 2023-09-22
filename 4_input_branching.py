@@ -11,6 +11,12 @@ print('------------- Challenge 1')
 # Python, that can be accomplished by starting each line with a hash ( # ).
 
 
+#enter: username
+#enter: passowrd
+#if password is correct
+    #log on 
+#if password is incorrect
+    #try again
 
 
 

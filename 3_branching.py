@@ -80,10 +80,6 @@ else:
     print('13 is greater than 50')    
 
 
-
-
-
-
 print('------------- Challenge 3')
 # Challenge 3:
 # Look at your Python Week 3 cheatsheet. Examine the syntax and behavior of the
@@ -94,13 +90,22 @@ print('------------- Challenge 3')
 # but it is up to you what you want to name your variables and which conditions
 # you want to check for.
 
+if y == 50:
+    print('exactly 50')
+elif y > 50:
+    print('Larger than 50')
+else:
+    print('y is between 25 and 50')
 
 
 
+if x == 100 or x > 150:
+    print('x is exactly 100 or maybe larger than 50')
 
 
 
-
+if x == 100 and y == 13:
+    print('both x is 100 and y is 13')
 
 print('-------------')
 # Bonus Challenge 1:
